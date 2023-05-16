@@ -101,7 +101,7 @@ if (voucher == "FrenzyFridays16")
     Console.WriteLine("Voucher: Not valid");
 }
 
-Console.WriteLine($"Price: £{totalCost}");
+Console.WriteLine($"Price: {totalCost:C}");
 
 Console.WriteLine($"Receipt number: {num}");
 
